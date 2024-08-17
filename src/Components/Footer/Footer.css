@@ -1,0 +1,45 @@
+.footerContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: BLACK;
+    padding: 10px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    font-size: 1.20em ;
+}
+
+.contactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactMeText p{
+    padding-bottom: 10px;
+}
+
+.contactMe img , .gitHubLink img{
+    height:30px;
+    width: auto;
+    padding: 0 10px;
+    filter: drop-shadow(0 0 10px rgba(252, 252, 252, 0.6));
+
+}
+
+.contactMe img:hover , .gitHubLink img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.gitHubLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
