@@ -2,11 +2,13 @@ import React from 'react'
 import './Header.css'
 
 export default function () {
+
   return (
     <div className="headerContainer">
-      
+
       <div className="logo">
         <img src="src\assets\logo.png" alt="v" />
+        
         <h1>CARDS</h1>
       </div>
 
@@ -22,3 +24,5 @@ export default function () {
     </div>
   )
 }
+
+
