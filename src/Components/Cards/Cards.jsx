@@ -9,7 +9,6 @@ export default function Cards({img, name, description }) {
       <p>{description}</p>
     </div>
 
-
   )
 }
 
