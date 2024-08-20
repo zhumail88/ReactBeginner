@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link , Route ,Routes } from 'react-router-dom'
 
 export default function () {
 
@@ -15,7 +16,7 @@ export default function () {
       <div className="links">
         <ul>
           <li>Home</li>
-          <li>Extras</li>
+          <li>Information</li>
           <li>About Us</li>
           <li>More Cards</li>
         </ul>

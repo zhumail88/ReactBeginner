@@ -1,7 +1,7 @@
 .cardContainer{
     background-color: #EFEFEF;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,13 +9,24 @@
     overflow: auto;
 }
 
+/* /#EFEFEF */
+
 .cardLayout{
     background-color: #EFEFEF;
-    height: 60vh;
-    width: 90vw;
+    height: 100vh;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectBoxArea{
+    height: 70vh;
+    width: 100vw;
+    background-color: #EFEFEF;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -35,10 +46,13 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+    position: relative; 
+    overflow: hidden;
+    
 }
 
 .card img{
-    width: 200px;
+    /* width: 200px;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -46,9 +60,23 @@
     box-shadow: 
         10px 10px 25px rgba(0, 0, 0, 0.3),
         -5px -5px 15px rgba(0, 0, 0, 0.2);
+    
+} */
+
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 50%; 
+    object-fit: cover; 
+    border-radius: 20px 20px 0 0;
+    border-bottom: solid black ;
 }
 
-.card p{
+.card h2{
+    margin-top: 80% ;
+}
+.card p {
     padding: 0 12px;
     line-height: 1;
 }

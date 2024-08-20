@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Components/Header/Header'
 import Footer from './Components/Footer/Footer'
-import CardDetails from './Components/CardDetails/CardDetails'
+import HomePage from './Components/HomePage/HomePage'
 import './App.css'
 
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
     <div className="screen">
       <Header />
       
-      <CardDetails />
+      <HomePage />
             
       <Footer />
     </div>

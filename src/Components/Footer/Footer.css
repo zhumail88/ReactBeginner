@@ -5,7 +5,6 @@
     width: 100%;
     color: white;
     background-color: #217879bd;
-    padding: 10px;
     height: 10%;
     display: flex;
     justify-content: space-between;
@@ -28,6 +27,7 @@
     height:30px;
     width: auto;
     padding: 0 10px;
+    filter: drop-shadow(0 0 10px rgb(203, 189, 189));
 }
 
 .contactMe img:hover , .gitHubLink img:hover{
